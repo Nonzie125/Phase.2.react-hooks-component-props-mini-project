@@ -1,13 +1,17 @@
 import React from "react";
 import blogData from "../data/blog";
+import Article from "../Article.js/Article.js";
 
 console.log(blogData);
 
 function App() {
   return (
     <div className="App">
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
+      <Head name="Mwende"/>;
+      <About img="src" about="text"/>
+      <ArticleList posts="ArticleList"/>
+      <Article title="title of article" date="January 1,1970" preview="display preview" />
+    
     </div>
   );
 }
