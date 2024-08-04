@@ -1,7 +1,7 @@
 import React from "react";
 import blogData from "../data/blog";
 import Article from "../Article.js/Article.js";
-
+import Header from "../Header.js/Header.js";
 console.log(blogData);
 
 function App() {
