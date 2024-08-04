@@ -1,10 +1,16 @@
 import React from 'react';
+import Article from "./Article.js.js";
 
-interface Props {
-}
 
-const Articlejs = (props: Props) => {
-    return null;
+const ArticleList = (props:props) => {
+    return (
+        
+        <div>
+            </div>
+            <main>
+            
+        </main>
+    )
 };
 
-export default Articlejs;
+export default ArticleList;
