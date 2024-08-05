@@ -1,10 +1,9 @@
 import React from 'react';
-
-interface Props {
+function Header(props){
+    return(
+        <header>
+            <h1>{props.name}</h1>
+        </header>
+    )
 }
-
-const Header.js = (props: Props) => {
-    return null;
-};
-
-export default Header.js;
+export default Header;

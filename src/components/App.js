@@ -1,8 +1,9 @@
 import React from "react";
 import blogData from "../data/blog";
-
+import ArticleList from "./ArticleList";
 import Header from "./Header.js.js";
 import About from "./About.js.js";
+
 console.log(blogData);
 
 function App() {
@@ -11,8 +12,6 @@ function App() {
       <Header name="Mwende"/>;
       <About image="/home/amali/Downloads/WhatsApp Image 2024-08-04 at 12.57.09.jpeg" alt="blog logo" about="I deliver you code"/>;
       <ArticleList posts="ArticleList"/>;
-      
-    
     </div>
   );
 }

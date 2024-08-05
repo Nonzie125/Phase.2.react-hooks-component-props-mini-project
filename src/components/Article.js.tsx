@@ -1,12 +1,22 @@
 import React from 'react';
 
-interface Props {
-}
 
-const Article = (props: Props) => {
-    return (
-        <main></main>
-    )
+const Article = ({ posts }) => {
+  return (
+    <div>
+      {posts.map((post, index) => (
+        <div key={index}>
+          <h2>Article {index + 1}</h2>
+          <p>{post}</p>
+          <h3>{post.title}</h3>
+          <small>{post.date}</small>
+          <p>{post.preview}</p>
+        </div>
+      ))}
+    </div>
+  );
 };
 
-export default Article.js;
+export default Article;
+
+
